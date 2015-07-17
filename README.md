@@ -32,7 +32,7 @@ func main() {
     // => it
 
     // Change the apostrophe character
-    ps.APOSTROPHE_CHAR = `’`
+    ps.ApostropheChar = `’`
     fmt.Println(ps.Possess("Dave"))
     // => Dave’s
 }
